@@ -1,7 +1,20 @@
 header {
-    background-color: #50c3e6;
-}
-
-button {
-    background-color: #ffffff;
-}
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #4a9daf;
+  }
+    
+  .logo img {
+    width: 100px;
+  }
+  
+  .actions button {
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+  }
+  

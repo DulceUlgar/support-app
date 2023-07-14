@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-
+  newrequest(): void {
+    // Lógica para crear una nueva solicitud
+  }
 }

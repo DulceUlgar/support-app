@@ -1,0 +1,29 @@
+.main{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+
+th{
+background-color: #8FD8E8;
+}
+
+.zebra tr:nth-child(even){
+background-color: #f4f4f4;
+}
+
+.zebra tr:nth-child(odd){
+    background-color: #37a0a0;
+    }
+
+tr,td {
+    padding: 8px;
+    border: 1px solid black;
+}
+.btn-primary{
+    background-color: #195513;
+}
+.btn-secondary{
+    background-color: #780c0c;
+}
